@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: sjekob/REPO_NAME
+          image: sjekob/FastApi-Auth
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
