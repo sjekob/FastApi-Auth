@@ -4,7 +4,6 @@
     - id: ruff
       args: [--fix]
     - id: ruff-format
-
   repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0 # Use the latest revision
