@@ -12,3 +12,5 @@
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-json
+      - id: check-yaml
+        args: [--allow-multiple-documents]
